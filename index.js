@@ -36,3 +36,4 @@ team.push(new Employee("Andrew", 1, "test@test.com"))
 let htmlDoc = render(team.html)
 
 //await fs.writeFile(outputPath, htmlDoc)
+module.exports = { createEngineerCard, createInternCard, crreateManagerCard}
